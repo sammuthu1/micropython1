@@ -1,9 +1,9 @@
 # SamsBlog
 **SamsBlog, created with the Micro-Site Builder**
 
-[Click here](https://github.optum.com/pages/jtannenb/SamsBlog) to view your new site!
+[Click here](https://github.com/pages/sammuthu1/SamsBlog) to view your new site!
 
-Below are some steps to run your new MkDocs site locally, but you do not necessarily have to do this to get started. [Click here to read more documentation](https://microsite-docs.optum.com), but the main actions to take from here would be:
+Below are some steps to run your new MkDocs site locally, but you do not necessarily have to do this to get started. [Click here to read more documentation](https://microsite-docscom), but the main actions to take from here would be:
 1. Update your content, which can be done in GitHub
 2. Redeploy your site, which [can be done many ways](https://microsite-docs.optum.com/getting-started/deploy)
 
@@ -27,7 +27,7 @@ pip install -r requirements.txt
 To start working on your documentation locally, you will need to clone this repo:
 
 ```zsh
-git clone https://github.optum.com/jtannenb/SamsBlog.git
+git clone https://github.com/sammuthu1/SamsBlog.git
 cd SamsBlog
 ```
 
