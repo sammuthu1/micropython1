@@ -17,7 +17,7 @@ nav:
       - On-line: blogs/onlineBipes.md
 
 repo_name: 'SamsBlog'
-repo_url: 'https://github.optum.com/jtannenb/SamsBlog'
+repo_url: 'https://github.com/sammuthu1/SamsBlog'
 edit_uri: 'blob/master/docs'
 copyright: 'Copyright &copy; 2021 Optum'
 theme:
