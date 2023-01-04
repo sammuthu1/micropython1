@@ -1,7 +1,7 @@
-# JetsBlog
-**JetsBlog, created with the Micro-Site Builder**
+# SamsBlog
+**SamsBlog, created with the Micro-Site Builder**
 
-[Click here](https://github.optum.com/pages/jtannenb/JetsBlog) to view your new site!
+[Click here](https://github.optum.com/pages/jtannenb/SamsBlog) to view your new site!
 
 Below are some steps to run your new MkDocs site locally, but you do not necessarily have to do this to get started. [Click here to read more documentation](https://microsite-docs.optum.com), but the main actions to take from here would be:
 1. Update your content, which can be done in GitHub
@@ -27,8 +27,8 @@ pip install -r requirements.txt
 To start working on your documentation locally, you will need to clone this repo:
 
 ```zsh
-git clone https://github.optum.com/jtannenb/JetsBlog.git
-cd JetsBlog
+git clone https://github.optum.com/jtannenb/SamsBlog.git
+cd SamsBlog
 ```
 
 To start up the server, run this command:
@@ -37,10 +37,10 @@ To start up the server, run this command:
 mkdocs serve
 ```
 
-Open http://127.0.0.1:8000 in a browser to see the documentation page you have created! 🎉 
+Open http://127.0.0.1:8000 in a browser to see the documentation page you have created! 🎉
 
 ## Project layout
-Your repository will resemble the directory structure here: 
+Your repository will resemble the directory structure here:
 
     mkdocs.yml    # The configuration file
     docs/
@@ -49,7 +49,7 @@ Your repository will resemble the directory structure here:
         ...       # Other directories with Markdown pages
 
 ## Deployment
-Micro-Sites are hosted with GitHub Pages and do not need any other type of infrastructure other than your GitHub repository. MkDocs will build your `master` branch into a static website that will be pushed to the `gh-pages` branch and your changes are live! You can manually redeploy or configure automation to redeploy with every change to `master`. 
+Micro-Sites are hosted with GitHub Pages and do not need any other type of infrastructure other than your GitHub repository. MkDocs will build your `master` branch into a static website that will be pushed to the `gh-pages` branch and your changes are live! You can manually redeploy or configure automation to redeploy with every change to `master`.
 
 ### Manually
 To manually redeploy your documentation changes:
@@ -67,7 +67,7 @@ You can also use Jenkins to continuously redeploy your documentation changes. Se
 To continue driving better documentation for your customers, other contributers will be able to improve or build upon your page through this repository. Read more about pull requests and other ways to collaborate [right here]!
 
 ## Reference
-Refer to [this site] for more documentation. 
+Refer to [this site] for more documentation.
 
 <!-- external links -->
 [this page]: https://microsite-docs.optum.com/getting-started/deploy

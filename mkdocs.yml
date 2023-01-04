@@ -1,9 +1,9 @@
-site_name: 'Jet&apos;s Blog Site'
+site_name: 'Sam&apos;s Blog Site'
 nav:
   - Home: index.md
   - Blogs:
     - STEM Mentoring: blogs/stemMentor.md
-    - STEM Mentoring (Part 2): 
+    - STEM Mentoring (Part 2):
       - Introduction and First Class: blogs/stemMentor2.md
       - The Second Class: blogs/secondClass.md
       - The Third Class: blogs/thirdClass.md
@@ -12,12 +12,12 @@ nav:
     - Working with an IR Sensor: blogs/irSensor.md
     - Alexa Development: blogs/amazonAlexa.md
     - Data DeIdentification: blogs/dataDeIdentification.md
-    - BIPES: 
+    - BIPES:
       - Off-line: blogs/bipes.md
       - On-line: blogs/onlineBipes.md
 
-repo_name: 'JetsBlog'
-repo_url: 'https://github.optum.com/jtannenb/JetsBlog'
+repo_name: 'SamsBlog'
+repo_url: 'https://github.optum.com/jtannenb/SamsBlog'
 edit_uri: 'blob/master/docs'
 copyright: 'Copyright &copy; 2021 Optum'
 theme:

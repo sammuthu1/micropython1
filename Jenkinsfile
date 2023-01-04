@@ -1,8 +1,8 @@
 pipeline {
   agent { label 'docker-kitchensink-slave' }
   environment {
-    ORG = 'jtannenb'
-    REPO = 'JetsBlog'
+    ORG = 'sammuthu1'
+    REPO = 'SamsBlog'
     CREDENTIALS_ID = '{{JenkinsCredentialId}}'
     MKDOCS_VERSION = '1.1.2'
     MKDOCS_MATERIAL_VERSION = '7.1.0'
