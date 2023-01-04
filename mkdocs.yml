@@ -1,0 +1,48 @@
+site_name: 'Jet&apos;s Blog Site'
+nav:
+  - Home: index.md
+  - Blogs:
+    - STEM Mentoring: blogs/stemMentor.md
+    - STEM Mentoring (Part 2): 
+      - Introduction and First Class: blogs/stemMentor2.md
+      - The Second Class: blogs/secondClass.md
+      - The Third Class: blogs/thirdClass.md
+    - First Pico Based Bot: blogs/firstPicoBot.md
+    - Maker Pi RP2040 Based Bot: blogs/makerPiRP2040Bot.md
+    - Working with an IR Sensor: blogs/irSensor.md
+    - Alexa Development: blogs/amazonAlexa.md
+    - Data DeIdentification: blogs/dataDeIdentification.md
+    - BIPES: 
+      - Off-line: blogs/bipes.md
+      - On-line: blogs/onlineBipes.md
+
+repo_name: 'JetsBlog'
+repo_url: 'https://github.optum.com/jtannenb/JetsBlog'
+edit_uri: 'blob/master/docs'
+copyright: 'Copyright &copy; 2021 Optum'
+theme:
+  name: material
+  palette:
+    primary: 'optum orange'
+    accent: 'optum orange'
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+  custom_dir: 'theme'
+  favicon: img/favicon.ico
+  logo: img/SmallSnidelyWhiplash.png
+  font:
+    text: Arial
+    code: Roboto Mono
+extra_css:
+  - styles/optum-theme.css
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - footnotes
+  - toc:
+      permalink: true
+  - codehilite:
+      linenums: true
